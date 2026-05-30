@@ -1,0 +1,7 @@
+interface:
+  display_name: "Prove Before Patch"
+  short_description: "Principles-first debugging by evidence"
+  default_prompt: "Use $prove-before-patch to debug this by establishing facts first, segmenting the flow, verifying one hypothesis at a time, and avoiding patch stacking until the root cause is proven."
+
+policy:
+  allow_implicit_invocation: true
